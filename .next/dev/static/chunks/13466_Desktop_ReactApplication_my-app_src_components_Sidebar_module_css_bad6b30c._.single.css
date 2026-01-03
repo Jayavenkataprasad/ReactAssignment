@@ -1,0 +1,78 @@
+/* [project]/OneDrive/Desktop/ReactApplication/my-app/src/components/Sidebar.module.css [app-client] (css) */
+.Sidebar-module__2HIbIW__sidebar {
+  flex: 1;
+  min-width: 250px;
+}
+
+.Sidebar-module__2HIbIW__customizable {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 20px 0;
+}
+
+.Sidebar-module__2HIbIW__checkboxLabel {
+  cursor: pointer;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  display: flex;
+}
+
+.Sidebar-module__2HIbIW__filterItem {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 20px 0;
+}
+
+.Sidebar-module__2HIbIW__filterHeader {
+  cursor: pointer;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  display: flex;
+}
+
+.Sidebar-module__2HIbIW__filterTitle {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.Sidebar-module__2HIbIW__filterSub {
+  color: #000;
+  font-size: 14px;
+}
+
+.Sidebar-module__2HIbIW__filterOptions {
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 15px;
+  display: flex;
+}
+
+.Sidebar-module__2HIbIW__unselectBtn {
+  text-align: left;
+  color: #999;
+  margin-bottom: 5px;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.Sidebar-module__2HIbIW__optionLabel {
+  cursor: pointer;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  display: flex;
+}
+
+.Sidebar-module__2HIbIW__arrow {
+  color: #666;
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  .Sidebar-module__2HIbIW__sidebar {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+/*# sourceMappingURL=13466_Desktop_ReactApplication_my-app_src_components_Sidebar_module_css_bad6b30c._.single.css.map*/

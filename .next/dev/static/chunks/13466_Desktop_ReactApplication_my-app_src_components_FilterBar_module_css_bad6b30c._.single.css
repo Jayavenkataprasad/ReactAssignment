@@ -1,0 +1,52 @@
+/* [project]/OneDrive/Desktop/ReactApplication/my-app/src/components/FilterBar.module.css [app-client] (css) */
+.FilterBar-module___AbZxW__filterBar {
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  display: flex;
+}
+
+.FilterBar-module___AbZxW__left {
+  align-items: center;
+  gap: 30px;
+  display: flex;
+}
+
+.FilterBar-module___AbZxW__itemCount {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.FilterBar-module___AbZxW__toggleBtn {
+  color: #666;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.FilterBar-module___AbZxW__sortDropdown select {
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .FilterBar-module___AbZxW__itemCount {
+    display: none;
+  }
+
+  .FilterBar-module___AbZxW__filterBar {
+    padding: 15px 0;
+  }
+
+  .FilterBar-module___AbZxW__toggleBtn, .FilterBar-module___AbZxW__sortDropdown select {
+    font-size: 12px;
+  }
+}
+
+/*# sourceMappingURL=13466_Desktop_ReactApplication_my-app_src_components_FilterBar_module_css_bad6b30c._.single.css.map*/

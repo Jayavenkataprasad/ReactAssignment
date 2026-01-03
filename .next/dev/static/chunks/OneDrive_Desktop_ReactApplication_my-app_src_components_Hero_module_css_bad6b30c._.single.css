@@ -1,0 +1,37 @@
+/* [project]/OneDrive/Desktop/ReactApplication/my-app/src/components/Hero.module.css [app-client] (css) */
+.Hero-module__ElkhGG__hero {
+  text-align: center;
+  background-color: #fff;
+  padding: 60px 20px;
+}
+
+.Hero-module__ElkhGG__title {
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.Hero-module__ElkhGG__description {
+  color: #000;
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .Hero-module__ElkhGG__hero {
+    padding: 40px 20px;
+  }
+
+  .Hero-module__ElkhGG__title {
+    font-size: 28px;
+  }
+
+  .Hero-module__ElkhGG__description {
+    font-size: 14px;
+  }
+}
+
+/*# sourceMappingURL=OneDrive_Desktop_ReactApplication_my-app_src_components_Hero_module_css_bad6b30c._.single.css.map*/

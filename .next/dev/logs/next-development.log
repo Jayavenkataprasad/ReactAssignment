@@ -1,0 +1,56 @@
+[00:00:04.049] Server  LOG     ✓ Ready in 2.9s
+[00:00:16.233] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:54.452] Server  LOG     ✓ Compiled in 599ms
+[00:03:55.329] Browser ERROR   ./OneDrive/Desktop/ReactApplication/my-app/src/components/ProductLayout.js:46:1
+Parsing ecmascript source code failed
+  44 |     if (filters['IDEAL FOR'].length > 0) {
+  45 |
+> 46 | export default ProductLayout;
+     | ^^^^^^
+  47 |
+
+'import', and 'export' cannot be used outside of module code
+
+Import trace:
+  Server Component:
+    ./OneDrive/Desktop/ReactApplication/my-app/src/components/ProductLayout.js
+    ./OneDrive/Desktop/ReactApplication/my-app/src/app/page.js
+[00:03:57.717] Server  LOG     ✓ Compiled in 455ms
+[00:04:12.769] Server  LOG     ✓ Compiled in 40ms
+[00:04:13.319] Browser ERROR   ./OneDrive/Desktop/ReactApplication/my-app/src/components/ProductLayout.js:4:1
+Export default doesn't exist in target module
+  2 | import { useState, useMemo } from "react";
+  3 | import styles from "./ProductLayout.module.css";
+> 4 | import Sidebar from "./Sidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import FilterBar from "./FilterBar";
+  6 | import ProductCard from "./ProductCard";
+  7 |
+
+The export default was not found in module [project]/OneDrive/Desktop/ReactApplication/my-app/src/components/Sidebar.js [app-client] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./OneDrive/Desktop/ReactApplication/my-app/src/components/ProductLayout.js
+    ./OneDrive/Desktop/ReactApplication/my-app/src/app/page.js
+[00:04:13.319] Browser ERROR   ./OneDrive/Desktop/ReactApplication/my-app/src/components/ProductLayout.js:4:1
+Export default doesn't exist in target module
+  2 | import { useState, useMemo } from "react";
+  3 | import styles from "./ProductLayout.module.css";
+> 4 | import Sidebar from "./Sidebar";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  5 | import FilterBar from "./FilterBar";
+  6 | import ProductCard from "./ProductCard";
+  7 |
+
+The export default was not found in module [project]/OneDrive/Desktop/ReactApplication/my-app/src/components/Sidebar.js [app-ssr] (ecmascript).
+The module has no exports at all.
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  Server Component:
+    ./OneDrive/Desktop/ReactApplication/my-app/src/components/ProductLayout.js
+    ./OneDrive/Desktop/ReactApplication/my-app/src/app/page.js
+[00:04:16.323] Browser ERROR   A component is changing an uncontrolled input to be controlled. This is likely caused by the value changing from undefined to a defined value, which should not happen. Decide between using a controlled or uncontrolled input element for the lifetime of the component. More info: https://react.dev/link/controlled-components

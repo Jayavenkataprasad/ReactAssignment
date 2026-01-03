@@ -1,0 +1,84 @@
+/* [project]/OneDrive/Desktop/ReactApplication/my-app/src/components/Header.module.css [app-client] (css) */
+.Header-module__hrjFQa__header {
+  background-color: #fff;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 20px 40px;
+}
+
+.Header-module__hrjFQa__topBar {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.Header-module__hrjFQa__logoContainer {
+  flex: 1;
+}
+
+.Header-module__hrjFQa__mainLogo {
+  letter-spacing: 2px;
+  text-align: center;
+  flex: 1;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.Header-module__hrjFQa__icons {
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  display: flex;
+}
+
+.Header-module__hrjFQa__icon {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.Header-module__hrjFQa__language {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.Header-module__hrjFQa__nav {
+  justify-content: center;
+  display: flex;
+}
+
+.Header-module__hrjFQa__navList {
+  gap: 40px;
+  display: flex;
+}
+
+.Header-module__hrjFQa__navList li a {
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .Header-module__hrjFQa__header {
+    padding: 15px 20px;
+  }
+
+  .Header-module__hrjFQa__navList {
+    gap: 15px;
+  }
+
+  .Header-module__hrjFQa__navList li a {
+    font-size: 12px;
+  }
+
+  .Header-module__hrjFQa__mainLogo {
+    font-size: 24px;
+  }
+
+  .Header-module__hrjFQa__icons {
+    gap: 10px;
+  }
+}
+
+/*# sourceMappingURL=13466_Desktop_ReactApplication_my-app_src_components_Header_module_css_bad6b30c._.single.css.map*/

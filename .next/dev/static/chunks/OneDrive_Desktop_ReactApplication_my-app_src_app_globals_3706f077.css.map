@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/jayav/OneDrive/Desktop/ReactApplication/my-app/src/app/globals.css"],"sourcesContent":[":root {\r\n  --primary-color: #000;\r\n  --secondary-color: #f5f5f5;\r\n  --bg-color: #fff;\r\n  --text-color: #000;\r\n  --gray-text: #666;\r\n}\r\n\r\n* {\r\n  box-sizing: border-box;\r\n  padding: 0;\r\n  margin: 0;\r\n}\r\n\r\nbody {\r\n  font-family: Arial, sans-serif;\r\n  color: var(--text-color);\r\n  background-color: var(--bg-color);\r\n}\r\n\r\na {\r\n  text-decoration: none;\r\n  color: inherit;\r\n}\r\n\r\nul {\r\n  list-style: none;\r\n}\r\n\r\nbutton {\r\n  background: none;\r\n  border: none;\r\n  cursor: pointer;\r\n}\r\n\r\ninput {\r\n  outline: none;\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;;;;;AAQA;;;;;;AAMA;;;;;;AAMA;;;;;AAKA;;;;AAIA;;;;;;AAMA"}}]
+}

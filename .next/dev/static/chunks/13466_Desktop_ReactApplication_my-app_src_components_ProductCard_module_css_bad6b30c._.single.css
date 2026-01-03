@@ -1,0 +1,81 @@
+/* [project]/OneDrive/Desktop/ReactApplication/my-app/src/components/ProductCard.module.css [app-client] (css) */
+.ProductCard-module__PiG1Eq__card {
+  background: #fff;
+  flex-direction: column;
+  display: flex;
+  overflow: hidden;
+}
+
+.ProductCard-module__PiG1Eq__imageWrapper {
+  aspect-ratio: 1 / 1.2;
+  background-color: #f5f5f5;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  display: flex;
+  position: relative;
+}
+
+.ProductCard-module__PiG1Eq__image {
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.ProductCard-module__PiG1Eq__newProduct {
+  background: #fff;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.ProductCard-module__PiG1Eq__info {
+  padding: 15px 0;
+}
+
+.ProductCard-module__PiG1Eq__titleRow {
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 5px;
+  display: flex;
+}
+
+.ProductCard-module__PiG1Eq__title {
+  text-transform: uppercase;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+  display: -webkit-box;
+  overflow: hidden;
+}
+
+.ProductCard-module__PiG1Eq__heartBtn {
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 1;
+}
+
+.ProductCard-module__PiG1Eq__pricing {
+  color: #666;
+  margin: 0;
+  font-size: 12px;
+}
+
+.ProductCard-module__PiG1Eq__pricing span {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .ProductCard-module__PiG1Eq__title {
+    font-size: 12px;
+  }
+}
+
+/*# sourceMappingURL=13466_Desktop_ReactApplication_my-app_src_components_ProductCard_module_css_bad6b30c._.single.css.map*/

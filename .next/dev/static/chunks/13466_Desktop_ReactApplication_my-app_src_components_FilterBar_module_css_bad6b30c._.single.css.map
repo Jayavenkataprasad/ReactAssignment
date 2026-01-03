@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/OneDrive/Desktop/ReactApplication/my-app/src/components/FilterBar.module.css"],"sourcesContent":[".filterBar {\r\n  display: flex;\r\n  justify-content: space-between;\r\n  align-items: center;\r\n  padding: 20px 0;\r\n  border-top: 1px solid #e5e5e5;\r\n  border-bottom: 1px solid #e5e5e5;\r\n}\r\n\r\n.left {\r\n  display: flex;\r\n  align-items: center;\r\n  gap: 30px;\r\n}\r\n\r\n.itemCount {\r\n  font-weight: bold;\r\n  font-size: 16px;\r\n}\r\n\r\n.toggleBtn {\r\n  font-size: 14px;\r\n  color: #666;\r\n  text-decoration: underline;\r\n  text-transform: uppercase;\r\n}\r\n\r\n.sortDropdown select {\r\n  border: none;\r\n  font-weight: bold;\r\n  font-size: 16px;\r\n  cursor: pointer;\r\n  background: none;\r\n  outline: none;\r\n}\r\n\r\n@media (max-width: 768px) {\r\n  .itemCount {\r\n    display: none;\r\n  }\r\n  \r\n  .filterBar {\r\n    padding: 15px 0;\r\n  }\r\n  \r\n  .toggleBtn, .sortDropdown select {\r\n    font-size: 12px;\r\n  }\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;;;;;;AASA;;;;;;AAMA;;;;;AAKA;;;;;;;AAOA;;;;;;;;;AASA;EACE;;;;EAIA;;;;EAIA"}}]
+}

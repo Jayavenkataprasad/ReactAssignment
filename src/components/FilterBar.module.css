@@ -1,0 +1,49 @@
+.filterBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.itemCount {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.toggleBtn {
+  font-size: 14px;
+  color: #666;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.sortDropdown select {
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  background: none;
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  .itemCount {
+    display: none;
+  }
+  
+  .filterBar {
+    padding: 15px 0;
+  }
+  
+  .toggleBtn, .sortDropdown select {
+    font-size: 12px;
+  }
+}

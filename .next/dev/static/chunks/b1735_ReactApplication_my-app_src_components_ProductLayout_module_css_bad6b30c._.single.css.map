@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/OneDrive/Desktop/ReactApplication/my-app/src/components/ProductLayout.module.css"],"sourcesContent":[".container {\r\n  max-width: 1440px;\r\n  margin: 0 auto;\r\n  padding: 0 40px;\r\n}\r\n\r\n.content {\r\n  display: flex;\r\n  gap: 30px;\r\n  padding: 20px 0;\r\n}\r\n\r\n.productGrid {\r\n  flex: 3;\r\n  display: grid;\r\n  grid-template-columns: repeat(3, 1fr);\r\n  gap: 30px;\r\n}\r\n\r\n.fullWidth {\r\n  grid-template-columns: repeat(4, 1fr);\r\n}\r\n\r\n@media (max-width: 1024px) {\r\n  .productGrid {\r\n    grid-template-columns: repeat(2, 1fr);\r\n  }\r\n  \r\n  .fullWidth {\r\n    grid-template-columns: repeat(3, 1fr);\r\n  }\r\n}\r\n\r\n@media (max-width: 768px) {\r\n  .container {\r\n    padding: 0 20px;\r\n  }\r\n  \r\n  .content {\r\n    flex-direction: column;\r\n  }\r\n  \r\n  .productGrid, .fullWidth {\r\n    grid-template-columns: repeat(2, 1fr);\r\n    gap: 15px;\r\n  }\r\n}\r\n\r\n@media (max-width: 480px) {\r\n  .productGrid, .fullWidth {\r\n    grid-template-columns: 1fr;\r\n  }\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;;;AAMA;;;;;;AAMA;;;;;;;AAOA;;;;AAIA;EACE;;;;EAIA;;;;;AAKF;EACE;;;;EAIA;;;;EAIA;;;;;;AAMF;EACE"}}]
+}

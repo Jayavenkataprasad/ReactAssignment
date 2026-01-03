@@ -1,0 +1,526 @@
+/* [project]/OneDrive/Desktop/ReactApplication/my-app/src/components/Header.module.css [app-client] (css) */
+.Header-module__hrjFQa__header {
+  background-color: #fff;
+  border-bottom: 1px solid #e5e5e5;
+  padding: 20px 40px;
+}
+
+.Header-module__hrjFQa__topBar {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.Header-module__hrjFQa__logoContainer {
+  flex: 1;
+}
+
+.Header-module__hrjFQa__mainLogo {
+  letter-spacing: 2px;
+  text-align: center;
+  flex: 1;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.Header-module__hrjFQa__icons {
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  display: flex;
+}
+
+.Header-module__hrjFQa__icon {
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.Header-module__hrjFQa__language {
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.Header-module__hrjFQa__nav {
+  justify-content: center;
+  display: flex;
+}
+
+.Header-module__hrjFQa__navList {
+  gap: 40px;
+  display: flex;
+}
+
+.Header-module__hrjFQa__navList li a {
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .Header-module__hrjFQa__header {
+    padding: 15px 20px;
+  }
+
+  .Header-module__hrjFQa__navList {
+    gap: 15px;
+  }
+
+  .Header-module__hrjFQa__navList li a {
+    font-size: 12px;
+  }
+
+  .Header-module__hrjFQa__mainLogo {
+    font-size: 24px;
+  }
+
+  .Header-module__hrjFQa__icons {
+    gap: 10px;
+  }
+}
+
+/* [project]/OneDrive/Desktop/ReactApplication/my-app/src/components/Hero.module.css [app-client] (css) */
+.Hero-module__ElkhGG__hero {
+  text-align: center;
+  background-color: #fff;
+  padding: 60px 20px;
+}
+
+.Hero-module__ElkhGG__title {
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  font-size: 48px;
+  font-weight: 400;
+}
+
+.Hero-module__ElkhGG__description {
+  color: #000;
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .Hero-module__ElkhGG__hero {
+    padding: 40px 20px;
+  }
+
+  .Hero-module__ElkhGG__title {
+    font-size: 28px;
+  }
+
+  .Hero-module__ElkhGG__description {
+    font-size: 14px;
+  }
+}
+
+/* [project]/OneDrive/Desktop/ReactApplication/my-app/src/components/ProductLayout.module.css [app-client] (css) */
+.ProductLayout-module__t4wd-G__container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.ProductLayout-module__t4wd-G__content {
+  gap: 30px;
+  padding: 20px 0;
+  display: flex;
+}
+
+.ProductLayout-module__t4wd-G__productGrid {
+  flex: 3;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  display: grid;
+}
+
+.ProductLayout-module__t4wd-G__fullWidth {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 1024px) {
+  .ProductLayout-module__t4wd-G__productGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .ProductLayout-module__t4wd-G__fullWidth {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .ProductLayout-module__t4wd-G__container {
+    padding: 0 20px;
+  }
+
+  .ProductLayout-module__t4wd-G__content {
+    flex-direction: column;
+  }
+
+  .ProductLayout-module__t4wd-G__productGrid, .ProductLayout-module__t4wd-G__fullWidth {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .ProductLayout-module__t4wd-G__productGrid, .ProductLayout-module__t4wd-G__fullWidth {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* [project]/OneDrive/Desktop/ReactApplication/my-app/src/components/Sidebar.module.css [app-client] (css) */
+.Sidebar-module__2HIbIW__sidebar {
+  flex: 1;
+  min-width: 250px;
+}
+
+.Sidebar-module__2HIbIW__customizable {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 20px 0;
+}
+
+.Sidebar-module__2HIbIW__checkboxLabel {
+  cursor: pointer;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  display: flex;
+}
+
+.Sidebar-module__2HIbIW__filterItem {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 20px 0;
+}
+
+.Sidebar-module__2HIbIW__filterHeader {
+  cursor: pointer;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  display: flex;
+}
+
+.Sidebar-module__2HIbIW__filterTitle {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.Sidebar-module__2HIbIW__filterSub {
+  color: #000;
+  font-size: 14px;
+}
+
+.Sidebar-module__2HIbIW__filterOptions {
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 15px;
+  display: flex;
+}
+
+.Sidebar-module__2HIbIW__unselectBtn {
+  text-align: left;
+  color: #999;
+  margin-bottom: 5px;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.Sidebar-module__2HIbIW__optionLabel {
+  cursor: pointer;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  display: flex;
+}
+
+.Sidebar-module__2HIbIW__arrow {
+  color: #666;
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  .Sidebar-module__2HIbIW__sidebar {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+/* [project]/OneDrive/Desktop/ReactApplication/my-app/src/components/FilterBar.module.css [app-client] (css) */
+.FilterBar-module___AbZxW__filterBar {
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  display: flex;
+}
+
+.FilterBar-module___AbZxW__left {
+  align-items: center;
+  gap: 30px;
+  display: flex;
+}
+
+.FilterBar-module___AbZxW__itemCount {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.FilterBar-module___AbZxW__toggleBtn {
+  color: #666;
+  text-transform: uppercase;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.FilterBar-module___AbZxW__sortDropdown select {
+  cursor: pointer;
+  background: none;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .FilterBar-module___AbZxW__itemCount {
+    display: none;
+  }
+
+  .FilterBar-module___AbZxW__filterBar {
+    padding: 15px 0;
+  }
+
+  .FilterBar-module___AbZxW__toggleBtn, .FilterBar-module___AbZxW__sortDropdown select {
+    font-size: 12px;
+  }
+}
+
+/* [project]/OneDrive/Desktop/ReactApplication/my-app/src/components/ProductCard.module.css [app-client] (css) */
+.ProductCard-module__PiG1Eq__card {
+  background: #fff;
+  flex-direction: column;
+  display: flex;
+  overflow: hidden;
+}
+
+.ProductCard-module__PiG1Eq__imageWrapper {
+  aspect-ratio: 1 / 1.2;
+  background-color: #f5f5f5;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  display: flex;
+  position: relative;
+}
+
+.ProductCard-module__PiG1Eq__image {
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.ProductCard-module__PiG1Eq__newProduct {
+  background: #fff;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.ProductCard-module__PiG1Eq__info {
+  padding: 15px 0;
+}
+
+.ProductCard-module__PiG1Eq__titleRow {
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 5px;
+  display: flex;
+}
+
+.ProductCard-module__PiG1Eq__title {
+  text-transform: uppercase;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+  display: -webkit-box;
+  overflow: hidden;
+}
+
+.ProductCard-module__PiG1Eq__heartBtn {
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 1;
+}
+
+.ProductCard-module__PiG1Eq__pricing {
+  color: #666;
+  margin: 0;
+  font-size: 12px;
+}
+
+.ProductCard-module__PiG1Eq__pricing span {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .ProductCard-module__PiG1Eq__title {
+    font-size: 12px;
+  }
+}
+
+/* [project]/OneDrive/Desktop/ReactApplication/my-app/src/components/Footer.module.css [app-client] (css) */
+.Footer-module__XMMmaG__footer {
+  color: #fff;
+  background-color: #000;
+  padding: 60px 40px 20px;
+}
+
+.Footer-module__XMMmaG__top {
+  border-bottom: 1px solid #fff;
+  justify-content: space-between;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  display: flex;
+}
+
+.Footer-module__XMMmaG__newsletter {
+  flex: 1;
+}
+
+.Footer-module__XMMmaG__newsletter h3 {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.Footer-module__XMMmaG__subscribe {
+  gap: 10px;
+  margin-top: 20px;
+  display: flex;
+}
+
+.Footer-module__XMMmaG__subscribe input {
+  color: #fff;
+  background: none;
+  border: 1px solid #fff;
+  width: 300px;
+  padding: 10px;
+}
+
+.Footer-module__XMMmaG__subscribe button {
+  color: #666;
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  font-weight: bold;
+}
+
+.Footer-module__XMMmaG__contact {
+  flex: 1;
+  padding-left: 100px;
+}
+
+.Footer-module__XMMmaG__contact h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.Footer-module__XMMmaG__currency {
+  margin-top: 30px;
+}
+
+.Footer-module__XMMmaG__usd {
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+  font-weight: bold;
+  display: flex;
+}
+
+.Footer-module__XMMmaG__smallText {
+  font-size: 12px;
+}
+
+.Footer-module__XMMmaG__bottom {
+  justify-content: space-between;
+  gap: 40px;
+  display: flex;
+}
+
+.Footer-module__XMMmaG__column {
+  flex: 1;
+}
+
+.Footer-module__XMMmaG__column h3 {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.Footer-module__XMMmaG__column ul li {
+  cursor: pointer;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.Footer-module__XMMmaG__socialIcons {
+  gap: 15px;
+  margin-bottom: 30px;
+  font-size: 24px;
+  display: flex;
+}
+
+.Footer-module__XMMmaG__paymentMethods h3 {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.Footer-module__XMMmaG__cards {
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 12px;
+  display: flex;
+}
+
+.Footer-module__XMMmaG__copyright {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 12px;
+}
+
+@media (max-width: 1024px) {
+  .Footer-module__XMMmaG__top {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .Footer-module__XMMmaG__contact {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .Footer-module__XMMmaG__footer {
+    padding: 40px 20px 20px;
+  }
+
+  .Footer-module__XMMmaG__bottom {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .Footer-module__XMMmaG__subscribe input {
+    width: 100%;
+  }
+}
+
+/*# sourceMappingURL=OneDrive_Desktop_ReactApplication_my-app_src_components_88a85cdf._.css.map*/

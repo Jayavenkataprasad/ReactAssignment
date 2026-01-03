@@ -1,0 +1,56 @@
+/* [project]/OneDrive/Desktop/ReactApplication/my-app/src/components/ProductLayout.module.css [app-client] (css) */
+.ProductLayout-module__t4wd-G__container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.ProductLayout-module__t4wd-G__content {
+  gap: 30px;
+  padding: 20px 0;
+  display: flex;
+}
+
+.ProductLayout-module__t4wd-G__productGrid {
+  flex: 3;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  display: grid;
+}
+
+.ProductLayout-module__t4wd-G__fullWidth {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media (max-width: 1024px) {
+  .ProductLayout-module__t4wd-G__productGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .ProductLayout-module__t4wd-G__fullWidth {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .ProductLayout-module__t4wd-G__container {
+    padding: 0 20px;
+  }
+
+  .ProductLayout-module__t4wd-G__content {
+    flex-direction: column;
+  }
+
+  .ProductLayout-module__t4wd-G__productGrid, .ProductLayout-module__t4wd-G__fullWidth {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .ProductLayout-module__t4wd-G__productGrid, .ProductLayout-module__t4wd-G__fullWidth {
+    grid-template-columns: 1fr;
+  }
+}
+
+/*# sourceMappingURL=b1735_ReactApplication_my-app_src_components_ProductLayout_module_css_bad6b30c._.single.css.map*/

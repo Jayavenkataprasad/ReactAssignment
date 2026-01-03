@@ -1,0 +1,75 @@
+.sidebar {
+  flex: 1;
+  min-width: 250px;
+}
+
+.customizable {
+  padding: 20px 0;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.checkboxLabel {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.filterItem {
+  border-bottom: 1px solid #e5e5e5;
+  padding: 20px 0;
+}
+
+.filterHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  margin-bottom: 5px;
+}
+
+.filterTitle {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.filterSub {
+  font-size: 14px;
+  color: #000;
+}
+
+.filterOptions {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.unselectBtn {
+  text-align: left;
+  color: #999;
+  text-decoration: underline;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.optionLabel {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.arrow {
+  font-size: 12px;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

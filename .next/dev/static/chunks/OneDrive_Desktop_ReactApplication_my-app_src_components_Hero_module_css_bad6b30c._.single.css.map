@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/OneDrive/Desktop/ReactApplication/my-app/src/components/Hero.module.css"],"sourcesContent":[".hero {\r\n  padding: 60px 20px;\r\n  text-align: center;\r\n  background-color: #fff;\r\n}\r\n\r\n.title {\r\n  font-size: 48px;\r\n  font-weight: 400;\r\n  margin-bottom: 20px;\r\n  letter-spacing: 1px;\r\n}\r\n\r\n.description {\r\n  font-size: 18px;\r\n  color: #000;\r\n  line-height: 1.5;\r\n  max-width: 800px;\r\n  margin: 0 auto;\r\n}\r\n\r\n@media (max-width: 768px) {\r\n  .hero {\r\n    padding: 40px 20px;\r\n  }\r\n  \r\n  .title {\r\n    font-size: 28px;\r\n  }\r\n  \r\n  .description {\r\n    font-size: 14px;\r\n  }\r\n}\r\n"],"names":[],"mappings":"AAAA;;;;;;AAMA;;;;;;;AAOA;;;;;;;;AAQA;EACE;;;;EAIA;;;;EAIA"}}]
+}
